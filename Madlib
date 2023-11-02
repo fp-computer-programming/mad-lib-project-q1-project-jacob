@@ -12,11 +12,11 @@ if len(verbs) < minrangev:
     verb = input("What are your 2 verbs? ")
     verbs = verb.split()
     print (verbs)
-eiif len(verbs) < minrangev:
+elif len(verbs) < minrangev:
     verb = input("What are your 2 verbs? ")
     verbs = verb.split()
     print (verbs)
-eiif len(verbs) < minrangev:
+elif len(verbs) < minrangev:
     verb = input("What are your 2 verbs? ")
     verbs = verb.split()
     print (verbs)
