@@ -7,7 +7,7 @@ minrangev = int(2)
 verb = input("What are your 2 verbs? ")
 #Splitting the long string into each word
 verbs = verb.split()
-#Loop to make sure the right number of words were given
+#Making sure the right number of words were given
 if len(verbs) < minrangev:
     verb = input("What are your 2 verbs? ")
     verbs = verb.split()
