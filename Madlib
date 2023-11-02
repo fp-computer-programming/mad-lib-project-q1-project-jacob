@@ -8,9 +8,19 @@ verb = input("What are your 2 verbs? ")
 #Splitting the long string into each word
 verbs = verb.split()
 #Loop to make sure the right number of words were given
-while len(verbs) < minrangev:
+if len(verbs) < minrangev:
     verb = input("What are your 2 verbs? ")
     verbs = verb.split()
+    print (verbs)
+eiif len(verbs) < minrangev:
+    verb = input("What are your 2 verbs? ")
+    verbs = verb.split()
+    print (verbs)
+eiif len(verbs) < minrangev:
+    verb = input("What are your 2 verbs? ")
+    verbs = verb.split()
+    print (verbs)
+else:
     print (verbs)
 #Setting maxing the string at the number of words needed
 verbf = verbs[0:2]
@@ -19,29 +29,59 @@ verbf = verbs[0:2]
 minrangepv = int(1)
 verbp = input("What is your past tense verb? ")
 verbps = verbp.split()
-while len(verbps) < minrangepv:
+if len(verbps) < minrangepv:
     verbp = input("What is your past tense verb? ")
     verbps = verbp.split()
     print (verbps)
+elif len(verbps) < minrangepv:
+    verbp = input("What is your past tense verb? ")
+    verbps = verbp.split()
+    print (verbps)
+elif len(verbps) < minrangepv:
+    verbp = input("What is your past tense verb? ")
+    verbps = verbp.split()
+    print (verbps)
+else:
+    print (verbs)
 verbpf = verbps[0:1]
 
 #Verbs ending in ing
 minrangeving = int(5)
 verbing = input("What are your 5 verbs ending in ing? ")
 verbings = verbing.split()
-while len(verbings) < minrangeving:
+if len(verbings) < minrangeving:
     verbing = input("What are your 5 verbs ending in ing? ")
     verbings = verbing.split()
     print (verbings)
+elif len(verbings) < minrangeving:
+    verbing = input("What are your 5 verbs ending in ing? ")
+    verbings = verbing.split()
+    print (verbings)
+elif len(verbings) < minrangeving:
+    verbing = input("What are your 5 verbs ending in ing? ")
+    verbings = verbing.split()
+    print (verbings)
+else:
+    print (verbs)
 verbingf = verbings[0:5]
 
 #Singular nouns
 minrangesn = int(12)
 snoun = input("What are your 12 nouns? ")
 snouns = snoun.split()
-while len(snouns) < minrangesn:
+if len(snouns) < minrangesn:
     snoun = input("What are your 12 nouns? ")
     snouns = snoun.split()
+    print (snouns)
+elif len(snouns) < minrangesn:
+    snoun = input("What are your 12 nouns? ")
+    snouns = snoun.split()
+    print (snouns)
+elif len(snouns) < minrangesn:
+    snoun = input("What are your 12 nouns? ")
+    snouns = snoun.split()
+    print (snouns)
+else:
     print (snouns)
 snounf = snouns[0:13]
 
@@ -49,9 +89,19 @@ snounf = snouns[0:13]
 minrangepn = int(1)
 pnoun = input("What is your plural noun? ")
 pnouns = pnoun.split()
-while len(pnouns) < minrangepn:
+if len(pnouns) < minrangepn:
     pnoun = input("What is your plural noun? ")
     pnouns = pnoun.split()
+    print (pnouns)
+elif len(pnouns) < minrangepn:
+    pnoun = input("What is your plural noun? ")
+    pnouns = pnoun.split()
+    print (pnouns)
+elif len(pnouns) < minrangepn:
+    pnoun = input("What is your plural noun? ")
+    pnouns = pnoun.split()
+    print (pnouns)
+else:
     print (pnouns)
 pnounf = pnouns[0:1]
 
@@ -59,9 +109,19 @@ pnounf = pnouns[0:1]
 minrangea = int(20)
 adj = input("What are your 20 adjectives? ")
 adjs = adj.split()
-while len(adjs) < minrangea:
+if len(adjs) < minrangea:
     adj = input("What are your 20 adjectives? ")
     adjs = adj.split()
+    print (adjs)
+elif len(adjs) < minrangea:
+    adj = input("What are your 20 adjectives? ")
+    adjs = adj.split()
+    print (adjs)
+elif len(adjs) < minrangea:
+    adj = input("What are your 20 adjectives? ")
+    adjs = adj.split()
+    print (adjs)
+else:
     print (adjs)
 adjf = adjs[0:20]
 
@@ -69,9 +129,19 @@ adjf = adjs[0:20]
 minrangena = int(2)
 name = input("What are your 2 names? ")
 names = name.split()
-while len(names) < minrangena:
+if len(names) < minrangena:
     name = input("What are your 2 names? ")
     names = name.split()
+    print (names)
+elif len(names) < minrangena:
+    name = input("What are your 2 names? ")
+    names = name.split()
+    print (names)
+elif len(names) < minrangena:
+    name = input("What are your 2 names? ")
+    names = name.split()
+    print (names)
+else:
     print (names)
 namesf = names[0:2]
 
